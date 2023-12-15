@@ -1,7 +1,12 @@
 import React from "react";
+import SignInPanel from "./components/SignInPanel/SignInPanel";
 
 function App() {
-  return <div></div>;
+  return (
+    <>
+      <SignInPanel />
+    </>
+  );
 }
 
 export default App;
