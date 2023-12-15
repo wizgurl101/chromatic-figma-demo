@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
+import Logo from "../Logo/Logo";
 import "./styles.css";
 
 const SignInPanel: React.FC = () => {
@@ -8,7 +9,9 @@ const SignInPanel: React.FC = () => {
   };
   return (
     <div className="card">
-      <img src="../../assets/images/city-landscape-skyline.svg" alt="logo" />
+      <div>
+        <Logo />
+      </div>
       <div className="container">
         <Button disabled={false} onClick={buttonHandleOnClick}>
           Sign In
